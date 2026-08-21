@@ -58,20 +58,20 @@ const projects = [
     image: '/images/projects/affiliate-partner-ios.jpg',
   },
   {
-    name: 'Streamer Menu Web',
-    description:
-      'Web-based order form for live streamers to share with viewers ahead of a stream. Viewers can browse and pay for request items before the stream starts, reducing friction and increasing engagement.',
-    stack: ['React', 'Firebase', 'Firestore', 'Stripe', 'Cloud Functions'],
-    github: 'https://github.com/chisom123/streamer-menu-web',
-    image: '/images/projects/streamer-menu.jpg',
-  },
-  {
     name: 'Live Streaming iOS App',
     description:
       "iOS app for social live streaming with paid viewer requests, CallKit integration, and a real-time engagement system. Streamers invite friends via Apple's CallKit API and receive paid requests from viewers during the stream.",
     stack: ['Swift', 'Firebase', 'Firestore', 'Cloud Functions', 'CallKit', 'LiveKit', 'Stripe'],
     github: 'https://github.com/chisom123/live-streaming-ios',
     image: '/images/projects/live-streaming.jpg',
+  },
+  {
+    name: 'Streamer Menu Web',
+    description:
+      'Web-based order form for live streamers to share with viewers ahead of a stream. Viewers can browse and pay for request items before the stream starts, reducing friction and increasing engagement.',
+    stack: ['React', 'Firebase', 'Firestore', 'Stripe', 'Cloud Functions'],
+    github: 'https://github.com/chisom123/streamer-menu-web',
+    image: '/images/projects/streamer-menu.jpg',
   },
 ]
 
