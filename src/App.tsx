@@ -31,7 +31,6 @@ const projects = [
       'iOS app for daily photo competitions with friends. Share photos, rate them 1-5 stars, and climb weekly leaderboards for real-money prizes. Features a prediction parlay system where users predict their friends\' ratings to earn coins.',
     stack: ['Swift', 'Firebase', 'Firestore', 'Cloud Functions', 'StoreKit'],
     github: 'https://github.com/chisom123/photo-competition-ios',
-    image: '/images/projects/photo-competition.jpg',
   },
   {
     name: 'Affiliate Marketing Platform',
@@ -39,7 +38,6 @@ const projects = [
       'Full-stack affiliate marketing platform with a complete conversion funnel: partners share links, viewers rate stories, enter phone numbers to unlock bonus content, and sign up as recruits. Includes admin dashboard for performance tracking and payout management via Wise/PayPal.',
     stack: ['React', 'TypeScript', 'Firebase', 'Firestore', 'Cloud Functions'],
     github: 'https://github.com/chisom123/affiliate-marketing-platform',
-    image: '/images/projects/affiliate-platform.jpg',
   },
   {
     name: 'Competition Admin Dashboard',
@@ -47,7 +45,6 @@ const projects = [
       'React admin dashboard for the photo competition platform. Manage prediction parlay settings (accuracy rates, house edge), monitor user activity, and process withdrawal requests.',
     stack: ['React', 'Firebase', 'Firestore', 'Cloud Functions'],
     github: 'https://github.com/chisom123/competition-admin-dashboard',
-    image: '/images/projects/admin-dashboard.jpg',
   },
   {
     name: 'Affiliate Partner iOS App',
@@ -55,7 +52,6 @@ const projects = [
       'iOS app for affiliates to manage their referral campaigns, track earnings, and withdraw payouts. Affiliates can create custom links, share them on Instagram Stories, and track earnings in real-time.',
     stack: ['Swift', 'Firebase', 'Firestore', 'Cloud Storage'],
     github: 'https://github.com/chisom123/affiliate-partner-ios',
-    image: '/images/projects/affiliate-partner-ios.jpg',
   },
   {
     name: 'Live Streaming iOS App',
@@ -63,7 +59,6 @@ const projects = [
       "iOS app for social live streaming with paid viewer requests, CallKit integration, and a real-time engagement system. Streamers invite friends via Apple's CallKit API and receive paid requests from viewers during the stream.",
     stack: ['Swift', 'Firebase', 'Firestore', 'Cloud Functions', 'CallKit', 'LiveKit', 'Stripe'],
     github: 'https://github.com/chisom123/live-streaming-ios',
-    image: '/images/projects/live-streaming.jpg',
   },
   {
     name: 'Streamer Menu Web',
@@ -71,7 +66,6 @@ const projects = [
       'Web-based order form for live streamers to share with viewers ahead of a stream. Viewers can browse and pay for request items before the stream starts, reducing friction and increasing engagement.',
     stack: ['React', 'Firebase', 'Firestore', 'Stripe', 'Cloud Functions'],
     github: 'https://github.com/chisom123/streamer-menu-web',
-    image: '/images/projects/streamer-menu.jpg',
   },
 ]
 
@@ -120,7 +114,6 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ImgWithFallback src={p.image} alt={p.name} className="project-img" />
                 <div className="project-body">
                   <div className="project-title-row">
                     <h3>{p.name}</h3>
